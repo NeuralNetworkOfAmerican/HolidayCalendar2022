@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialogback"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/picture"
+            android:src="@drawable/juneteenth"
+            android:layout_weight="10"
+            tools:ignore="UsingOnClickInXml">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/title"
+            android:text="@string/juneteenth"
+            android:layout_weight="6"
+            android:padding="5dp"
+            android:textSize="28sp"
+            android:layout_marginTop="5dp" />
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="45">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:id="@+id/description"
+                android:text="@string/jun_19"
+                android:textSize="15sp"
+                android:padding="5dp"
+                />
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="150dp"
+                android:id="@+id/task"
+                android:text="@string/task"
+                android:onClick="Create_task_jun_20"
+                android:layout_weight="5"
+                android:background="@drawable/backgroundwhite"
+                android:textSize="5sp"
+                tools:ignore="NestedWeights,SmallSp,UsingOnClickInXml" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/exit"
+                android:text="@string/exit"
+                android:onClick="Exit"
+                android:layout_weight="5"
+                android:background="@drawable/backgroundwhite"
+                android:textSize="5sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

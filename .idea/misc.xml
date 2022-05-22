@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/drawable/background.xml" value="0.37864583333333335" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-land/activity_main.xml" value="0.3328125" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-land/tasks.xml" value="0.3441441441441441" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-large-land/activity_main.xml" value="0.249609375" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-large-port/activity_main.xml" value="0.271875" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-large/activity_main.xml" value="0.271875" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_april.xml" value="0.3045045045045045" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_august.xml" value="0.3045045045045045" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_december.xml" value="0.3504504504504504" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_february.xml" value="0.3045045045045045" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_january.xml" value="0.3045045045045045" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_july.xml" value="0.3045045045045045" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_june.xml" value="0.3045045045045045" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_main.xml" value="0.3328125" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_march.xml" value="0.3" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_may.xml" value="0.3045045045045045" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_november.xml" value="0.3045045045045045" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_october.xml" value="0.3045045045045045" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-land/activity_september.xml" value="0.3045045045045045" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_april.xml" value="0.17604166666666668" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_august.xml" value="0.17604166666666668" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_december.xml" value="0.1953125" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_february.xml" value="0.17604166666666668" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_january.xml" value="0.17604166666666668" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_july.xml" value="0.17604166666666668" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_june.xml" value="0.17604166666666668" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_main.xml" value="0.3625" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_march.xml" value="0.17604166666666668" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_may.xml" value="0.17604166666666668" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_november.xml" value="0.33" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_october.xml" value="0.17604166666666668" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-normal-port/activity_september.xml" value="0.33" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-port/activity_main.xml" value="0.3625" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-port/tasks.xml" value="0.19895833333333332" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-small-land/activity_main.xml" value="0.3328125" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-small-port/activity_main.xml" value="0.3625" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-xlarge-land/activity_main.xml" value="0.249609375" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout-xlarge-port/activity_main.xml" value="0.271875" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/activity_april.xml" value="1.207142857142857" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/activity_december.xml" value="0.75" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/activity_february.xml" value="1.207142857142857" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/activity_main.xml" value="0.4836692147324531" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_dec_25.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_dec_26.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_feb_21.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_jan_1.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_jan_17.xml" value="0.20052083333333334" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_jul_4.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_jun_19.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_jun_20.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_may_30.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_nov_11.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_nov_24.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_oct_10.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_celebration_sep_5.xml" value="0.20260416666666667" />
+        <entry key="..\:/HolidayCalendar2022/app/src/main/res/layout/fragment_january.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

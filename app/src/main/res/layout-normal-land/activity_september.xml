@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/galaxy"
+    tools:context=".September">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:text="@string/september"
+            android:textColor="@color/yellow"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="63dp"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginStart="125dp"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginStart="215dp"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginStart="300dp"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="390dp"
+            android:layout_marginTop="63dp"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginStart="485dp"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginStart="565dp"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="402dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/_1"
+            android:onClick="sep_1"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="493dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/_2"
+            android:onClick="sep_2"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="574dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/_3"
+            android:onClick="sep_3"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="148dp"
+            android:text="@string/_4"
+            android:onClick="sep_4"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="148dp"
+            android:onClick="sep_5"
+            android:text="@string/_5"
+            android:textColor="@color/green"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="229dp"
+            android:layout_marginTop="148dp"
+            android:text="@string/_6"
+            android:onClick="sep_6"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="313dp"
+            android:layout_marginTop="148dp"
+            android:text="@string/_7"
+            android:onClick="sep_7"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="402dp"
+            android:layout_marginTop="148dp"
+            android:text="@string/_8"
+            android:onClick="sep_8"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="493dp"
+            android:layout_marginTop="148dp"
+            android:text="@string/_9"
+            android:onClick="sep_9"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="574dp"
+            android:layout_marginTop="148dp"
+            android:text="@string/_10"
+            android:onClick="sep_10"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="186dp"
+            android:text="@string/_11"
+            android:onClick="sep_11"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="186dp"
+            android:text="@string/_12"
+            android:onClick="sep_12"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="229dp"
+            android:layout_marginTop="186dp"
+            android:text="@string/_13"
+            android:onClick="sep_13"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="313dp"
+            android:layout_marginTop="186dp"
+            android:text="@string/_14"
+            android:onClick="sep_14"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="402dp"
+            android:layout_marginTop="186dp"
+            android:text="@string/_15"
+            android:onClick="sep_15"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="493dp"
+            android:layout_marginTop="186dp"
+            android:text="@string/_16"
+            android:onClick="sep_16"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="574dp"
+            android:layout_marginTop="186dp"
+            android:text="@string/_17"
+            android:onClick="sep_17"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="224dp"
+            android:text="@string/_18"
+            android:onClick="sep_18"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="224dp"
+            android:text="@string/_19"
+            android:onClick="sep_19"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="229dp"
+            android:layout_marginTop="224dp"
+            android:text="@string/_20"
+            android:onClick="sep_20"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="313dp"
+            android:layout_marginTop="224dp"
+            android:text="@string/_21"
+            android:onClick="sep_21"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="402dp"
+            android:layout_marginTop="224dp"
+            android:text="@string/_22"
+            android:onClick="sep_22"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="493dp"
+            android:layout_marginTop="224dp"
+            android:text="@string/_23"
+            android:onClick="sep_23"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="574dp"
+            android:layout_marginTop="224dp"
+            android:text="@string/_24"
+            android:onClick="sep_24"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="262dp"
+            android:text="@string/_25"
+            android:onClick="sep_25"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="262dp"
+            android:text="@string/_26"
+            android:onClick="sep_26"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="229dp"
+            android:layout_marginTop="262dp"
+            android:text="@string/_27"
+            android:onClick="sep_27"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="313dp"
+            android:layout_marginTop="262dp"
+            android:text="@string/_28"
+            android:onClick="sep_28"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="402dp"
+            android:layout_marginTop="262dp"
+            android:text="@string/_29"
+            android:onClick="sep_29"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="493dp"
+            android:layout_marginTop="262dp"
+            android:text="@string/_30"
+            android:onClick="sep_30"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:id="@+id/celebration_sep_5"
+            android:layout_width="700dp"
+            android:layout_height="600dp"
+            android:layout_margin="20dp"
+            >
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

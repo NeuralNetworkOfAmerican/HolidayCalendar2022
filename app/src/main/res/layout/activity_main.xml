@@ -1,0 +1,5238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/galaxy"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:onClick="ButtonJanuary"
+            android:text="@string/janyary"
+            android:textColor="@color/teal_200"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:onClick="ButtonJanuary"
+            android:textColor="@color/red"
+            tools:ignore="DuplicateIds,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/jan_1"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="63dp"
+            android:background="@drawable/days"
+            android:onClick="Holiday"
+            android:text="@string/_1"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="102dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="102dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="102dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="102dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="102dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="102dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="102dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/days"
+            android:text="@string/_29"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="128dp"
+            android:background="@drawable/days"
+            android:text="@string/_30"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="128dp"
+            android:background="@drawable/days"
+            android:text="@string/_31"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="20dp"
+            android:onClick="ButtonFebruary"
+            android:text="@string/february"
+            android:textColor="@color/teal_200"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="166dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="199dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="63dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="63dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="63dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="63dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="201dp"
+            android:layout_marginTop="63dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="74dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="74dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="74dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="74dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="74dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="74dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="201dp"
+            android:layout_marginTop="74dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="87dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="87dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="87dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="87dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="87dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="87dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="201dp"
+            android:layout_marginTop="87dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="201dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="113dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="113dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:onClick="ButtonFebruary"
+            android:textColor="@color/red"
+            tools:ignore="SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="278dp"
+            android:layout_marginTop="20dp"
+            android:onClick="ButtonMarch"
+            android:text="@string/march"
+            android:textColor="@color/green"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="284dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="295dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="306dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="328dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="339dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="63dp"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="308dp"
+            android:layout_marginTop="63dp"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginTop="63dp"
+            android:text="@string/_3"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="63dp"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="341dp"
+            android:layout_marginTop="63dp"
+            android:text="@string/_5"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/_6"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="286dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="308dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/_9"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/_10"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/_11"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="341dp"
+            android:layout_marginTop="76dp"
+            android:text="@string/_12"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="89dp"
+            android:text="@string/_13"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="286dp"
+            android:layout_marginTop="89dp"
+            android:text="@string/_14"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="89dp"
+            android:text="@string/_15"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="308dp"
+            android:layout_marginTop="89dp"
+            android:text="@string/_16"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginTop="89dp"
+            android:text="@string/_17"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="89dp"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="341dp"
+            android:layout_marginTop="89dp"
+            android:text="@string/_19"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="102dp"
+            android:text="@string/_20"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="286dp"
+            android:layout_marginTop="102dp"
+            android:text="@string/_21"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="102dp"
+            android:text="@string/_22"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="308dp"
+            android:layout_marginTop="102dp"
+            android:text="@string/_23"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginTop="102dp"
+            android:text="@string/_24"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="102dp"
+            android:text="@string/_25"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="341dp"
+            android:layout_marginTop="102dp"
+            android:text="@string/_26"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="115dp"
+            android:text="@string/_27"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="286dp"
+            android:layout_marginTop="115dp"
+            android:text="@string/_28"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="115dp"
+            android:text="@string/_29"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="308dp"
+            android:layout_marginTop="115dp"
+            android:text="@string/_30"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="319dp"
+            android:layout_marginTop="115dp"
+            android:text="@string/_31"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/March"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="50dp"
+            android:onClick="ButtonMarch"
+            tools:ignore="UsingOnClickInXml" />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="160dp"
+            android:onClick="ButtonApril"
+            android:text="@string/april"
+            android:textColor="@color/green"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="203dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="203dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="255dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="255dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="255dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="255dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="255dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="255dp"
+            android:background="@drawable/days"
+            android:text="@string/_29"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="255dp"
+            android:background="@drawable/days"
+            android:text="@string/_30"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="190dp"
+            android:onClick="ButtonApril"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="160dp"
+            android:onClick="ButtonMay"
+            android:text="@string/may"
+            android:textColor="@color/green"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="166dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="199dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="203dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="203dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="203dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="203dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="203dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="203dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="201dp"
+            android:layout_marginTop="203dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="201dp"
+            android:layout_marginTop="216dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="201dp"
+            android:layout_marginTop="229dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="179dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="201dp"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="255dp"
+            android:background="@drawable/days"
+            android:text="@string/_29"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="255dp"
+            android:background="@drawable/days"
+            android:text="@string/_30"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="255dp"
+            android:background="@drawable/days"
+            android:text="@string/_31"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="190dp"
+            android:onClick="ButtonMay"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="278dp"
+            android:layout_marginTop="160dp"
+            android:onClick="ButtonJune"
+            android:text="@string/june"
+            android:textColor="@color/red"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="284dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="295dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="306dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="328dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="339dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="309dp"
+            android:layout_marginTop="203dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="203dp"
+            android:layout_marginStart="320dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="203dp"
+            android:layout_marginStart="330dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="203dp"
+            android:layout_marginStart="342dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginStart="276dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginStart="287dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginStart="297dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginStart="309dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginStart="320dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginStart="330dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginStart="342dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="229dp"
+            android:layout_marginStart="276dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="229dp"
+            android:layout_marginStart="287dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="229dp"
+            android:layout_marginStart="297dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="229dp"
+            android:layout_marginStart="309dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="229dp"
+            android:layout_marginStart="320dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="229dp"
+            android:layout_marginStart="330dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="229dp"
+            android:layout_marginStart="342dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="276dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="287dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="297dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="309dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="320dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="330dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="242dp"
+            android:layout_marginStart="342dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginStart="276dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginStart="287dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginStart="297dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginStart="309dp"
+            android:background="@drawable/days"
+            android:text="@string/_29"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="255dp"
+            android:layout_marginStart="320dp"
+            android:background="@drawable/days"
+            android:text="@string/_30"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="190dp"
+            android:onClick="ButtonJune"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="300dp"
+            android:onClick="ButtonJuly"
+            android:text="@string/july"
+            android:textColor="@color/red"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="343dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="343dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="343dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="343dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_29"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_30"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="408dp"
+            android:background="@drawable/days"
+            android:text="@string/_31"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="330dp"
+            android:onClick="ButtonJuly"
+            tools:ignore="UsingOnClickInXml" />
+
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="300dp"
+            android:onClick="ButtonAugust"
+            android:text="@string/august"
+            android:textColor="@color/red"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="166dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="199dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="343dp"
+            android:layout_marginStart="147dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="343dp"
+            android:layout_marginStart="158dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="343dp"
+            android:layout_marginStart="169dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="343dp"
+            android:layout_marginStart="180dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="343dp"
+            android:layout_marginStart="191dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="343dp"
+            android:layout_marginStart="202dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="356dp"
+            android:layout_marginStart="135dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="356dp"
+            android:layout_marginStart="147dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="356dp"
+            android:layout_marginStart="158dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="356dp"
+            android:layout_marginStart="169dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="356dp"
+            android:layout_marginStart="180dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="356dp"
+            android:layout_marginStart="191dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="356dp"
+            android:layout_marginStart="202dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="369dp"
+            android:layout_marginStart="135dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="369dp"
+            android:layout_marginStart="147dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="369dp"
+            android:layout_marginStart="158dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="369dp"
+            android:layout_marginStart="169dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="369dp"
+            android:layout_marginStart="180dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="369dp"
+            android:layout_marginStart="191dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="369dp"
+            android:layout_marginStart="202dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="382dp"
+            android:layout_marginStart="135dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="382dp"
+            android:layout_marginStart="147dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="382dp"
+            android:layout_marginStart="158dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="382dp"
+            android:layout_marginStart="169dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="382dp"
+            android:layout_marginStart="180dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="382dp"
+            android:layout_marginStart="191dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="382dp"
+            android:layout_marginStart="202dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="395dp"
+            android:layout_marginStart="135dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="395dp"
+            android:layout_marginStart="147dp"
+            android:background="@drawable/days"
+            android:text="@string/_29"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="395dp"
+            android:layout_marginStart="158dp"
+            android:background="@drawable/days"
+            android:text="@string/_30"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginTop="395dp"
+            android:layout_marginStart="169dp"
+            android:background="@drawable/days"
+            android:text="@string/_31"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="330dp"
+            android:onClick="ButtonAugust"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="278dp"
+            android:layout_marginTop="300dp"
+            android:onClick="ButtonSeptember"
+            android:text="@string/september"
+            android:textColor="@color/yellow"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="284dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="295dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="306dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="328dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="339dp"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="343dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="343dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="342dp"
+            android:layout_marginTop="343dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="288dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="342dp"
+            android:layout_marginTop="356dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="288dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="342dp"
+            android:layout_marginTop="369dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="288dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="342dp"
+            android:layout_marginTop="382dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="288dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_29"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="395dp"
+            android:background="@drawable/days"
+            android:text="@string/_30"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="330dp"
+            android:onClick="ButtonSeptember"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="440dp"
+            android:onClick="ButtonOctober"
+            android:text="@string/october"
+            android:textColor="@color/yellow"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="160dp"
+            android:onClick="ButtonApril"
+            android:text="@string/april"
+            android:textColor="@color/green"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:id="@+id/January"
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="DuplicateIds,SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="483dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_29"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="548dp"
+            android:background="@drawable/days"
+            android:text="@string/_30"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="548dp"
+            android:background="@drawable/days"
+            android:text="@string/_31"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="470dp"
+            android:onClick="ButtonOctober"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="440dp"
+            android:onClick="ButtonNovember"
+            android:text="@string/november"
+            android:textColor="@color/yellow"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="166dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="199dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="483dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="483dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="483dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="483dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginTop="483dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="147dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="147dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="147dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="202dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="147dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_29"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_30"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="470dp"
+            android:onClick="ButtonNovember"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="278dp"
+            android:layout_marginTop="440dp"
+            android:onClick="ButtonDecember"
+            android:text="@string/december"
+            android:textColor="@color/teal_200"
+            android:textSize="10sp"
+            tools:ignore="MissingConstraints,SmallSp,UsingOnClickInXml" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/sun"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="284dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/mon"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="295dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/tue"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="306dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/wed"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/thu"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="328dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/fri"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="339dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/days"
+            android:text="@string/sat"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="483dp"
+            android:background="@drawable/days"
+            android:text="@string/_1"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="483dp"
+            android:background="@drawable/days"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="342dp"
+            android:layout_marginTop="483dp"
+            android:background="@drawable/days"
+            android:text="@string/_3"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_4"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="287dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_5"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="309dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_7"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_9"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="342dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/days"
+            android:text="@string/_10"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_11"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="287dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_12"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_13"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="309dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_14"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_15"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_16"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="342dp"
+            android:layout_marginTop="509dp"
+            android:background="@drawable/days"
+            android:text="@string/_17"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_18"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="287dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_19"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_20"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="309dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_21"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_22"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_23"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="342dp"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/days"
+            android:text="@string/_24"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_25"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="287dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_26"
+            android:textColor="@color/green"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_27"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="309dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_28"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_29"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_30"
+            android:textColor="@color/white"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="342dp"
+            android:layout_marginTop="535dp"
+            android:background="@drawable/days"
+            android:text="@string/_31"
+            android:textColor="@color/red"
+            android:textSize="4sp"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="470dp"
+            android:onClick="ButtonDecember"
+            tools:ignore="UsingOnClickInXml" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
